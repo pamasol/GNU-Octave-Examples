@@ -12,10 +12,55 @@ text = "Hello World"
 # ------------------------------------------------------------------------------
 # Useful commands
 # ------------------------------------------------------------------------------
-# clear     --> delete all variables in the workspace
-# clc       --> clear command window (does not delete variables)
+# clear --> delete all variables in the workspace
+clear
+# clc --> clear command window (does not delete variables)
+clc
 
 # ------------------------------------------------------------------------------
 # vectors
 # ------------------------------------------------------------------------------
 vect = [1 2 3 4 5 6]
+column_vect = [1; 2; 3; 4; 5; 6;]
+
+# ------------------------------------------------------------------------------
+# Matrices
+# ------------------------------------------------------------------------------
+matr = [1 2 3; 4 5 6; 7 8 9]
+matr_el_by_el = matr .* matr
+matr_add = matr .+ matr
+matr_sub = matr .- matr
+matr_div = matr ./ matr
+matr_exp = matr .^ matr
+
+matr_ones = ones(3,3)
+matr_zeros = zeros(3,3)
+matr_diag = eye(4)
+
+rand_pos = rand(1,5)
+rand_pos_neg = randn(1,10)
+
+# ------------------------------------------------------------------------------
+# Colon operator
+# ------------------------------------------------------------------------------
+val_1_to_5 = 1 : 5
+val_1_to_10_incr_2 = 2 : 2 : 10
+
+# ------------------------------------------------------------------------------
+# Indexing
+# ------------------------------------------------------------------------------
+matr
+first_element = matr(1,1)
+second_row = matr(2,[1,2,3])
+second_row = matr(2,[1:3])
+second_row = matr(2,:)
+
+
+
+
+
+
+
+
+
+
