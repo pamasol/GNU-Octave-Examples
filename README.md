@@ -9,3 +9,8 @@ GNU Octave code snippets that we ([pamasol.com](https://www.pamasol.com/)) mainl
 2. Got to [gnu.org/software/octave](https://www.gnu.org/software/octave/) and download and install the **octave-5.x.x_x-w64-installer.exe**.
 
 3. Make sure [git](https://git-scm.com/download/win) is installed on your machine as well. Clone this repository with `git clone git@github.com:pamasol/GNU-Octave-Examples.git`.
+
+
+## Tutorials and cheat sheets
+
+* [Introduction to Octave](http://www-mdp.eng.cam.ac.uk/web/CD/engapps/octave/octavetut.pdf) by Dr. P.J.G Long, Department of Engineering, University of Cambridge
