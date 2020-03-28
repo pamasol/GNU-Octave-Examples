@@ -1,7 +1,10 @@
-x = 0:0.001:2*pi;
+x = linspace(0, 2*pi);
 
 figure (1);
 plot (x, sin (x));
+hold on
+plot (x, cos (x));
+hold off
 set(gca,'XTick',0:pi/2:2*pi) 
 set(gca,'XTickLabel',{'0','pi/2','pi','3*pi/2','2*pi'})
 xlabel ("x");
