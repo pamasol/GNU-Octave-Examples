@@ -2,7 +2,7 @@
 
 GNU Octave code snippets that we ([pamasol.com](https://www.pamasol.com/)) mainly use to establish, visualize and explain electrical engineering stuff that we face from time to time.
 
-> [GNU Octave](https://www.gnu.org/software/octave/) is a high-level interpreted language, primarily intended for numerical computations.  
+> [GNU Octave](https://www.gnu.org/software/octave/) is a high-level interpreted language, primarily intended for numerical computations. It is comparable to [MATLAB](https://www.mathworks.com/products/matlab.html), which is not open source.
 
 ## Installation on Windows 10 64-bit operating systems
 
@@ -15,3 +15,5 @@ GNU Octave code snippets that we ([pamasol.com](https://www.pamasol.com/)) mainl
 ## Tutorials and Cheat sheet
 
 * YouTube [Octave Tutorials by DrapsTV](https://www.youtube.com/playlist?list=PL1A2CSdiySGJ6oZe6XB-TTCFuHc5Fs1PO). This tutorial uses GNU Octave 3.2.4.
+
+* [Introduction to Octave](http://www-mdp.eng.cam.ac.uk/web/CD/engapps/octave/octavetut.pdf) by Dr. P.J.G Long, Department of Engineering, University of Cambridge
