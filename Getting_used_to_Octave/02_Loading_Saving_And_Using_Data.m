@@ -1,6 +1,8 @@
 # ------------------------------------------------------------------------------
 # Load and output data
 # ------------------------------------------------------------------------------
+
+# Add following command if dat file is not in same directory as script
 # warning ('off', 'Octave:data-file-in-path')
 clc
 
