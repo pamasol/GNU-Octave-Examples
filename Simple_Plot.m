@@ -10,6 +10,7 @@ set(gca,'XTickLabel',{'0','pi/2','pi','3*pi/2','2*pi'})
 xlabel ("x");
 ylabel ("sin_rad (x)");
 title ("Simple 2-D Plot");
+legend ("sin (x)", "cos (x)");
 grid on;
 
 figure (2);
