@@ -54,13 +54,3 @@ first_element = matr(1,1)
 second_row = matr(2,[1,2,3])
 second_row = matr(2,[1:3])
 second_row = matr(2,:)
-
-
-
-
-
-
-
-
-
-
