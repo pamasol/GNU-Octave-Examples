@@ -23,11 +23,29 @@ A selection of pre-built, Octave Forge packages are included with for all versio
 >> pkg list
 ```
 
-Run following commands to add the packages included in the `Forge_Packages` folder of this project.
+Run following commands to add the packages included in the `Forge_Packages` folder of this project:
 
 ```
 >> cd Forge_Packages
 >> pkg install control-3.2.0.tar.gz
+```
+
+Or you can install packages directly from Octave Forge server as follows:
+
+```
+>> pkg install -forge control
+```
+
+Add named packages to the path. After loading a package it is possible to use the functions provided by the package. For example:
+
+```
+>> pkg load control
+```
+
+Uninstall a package as follows:
+```
+>> pkg unload control
+>> pkg uninstall image
 ```
 
 
