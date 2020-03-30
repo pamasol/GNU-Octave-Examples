@@ -58,8 +58,7 @@ while true,
   n = n+1;
  end;
 
-n
-v
-
+disp ("The value of n is:"), disp (n)
+disp ("The value of v is:"), disp (v)
 
 
