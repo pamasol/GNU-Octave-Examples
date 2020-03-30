@@ -12,6 +12,25 @@ GNU Octave code snippets that we ([pamasol.com](https://www.pamasol.com/)) mainl
 
 3. Make sure [git](https://git-scm.com/download/win) is installed on your machine as well. Clone this repository with `git clone git@github.com:pamasol/GNU-Octave-Examples.git`.
 
+
+## Installing additional packages
+
+[Octave Forge](https://octave.sourceforge.io/) is a collection of packages providing extra functionality for GNU Octave.
+
+A selection of pre-built, Octave Forge packages are included with for all versions of the official Windows release. If you followed the installation directions above you can confirm the package list by typing the command below at the Octave command prompt:
+
+```
+>> pkg list
+```
+
+Run following commands to add the packages included in the `Forge_Packages` folder of this project.
+
+```
+>> cd Forge_Packages
+>> pkg install control-3.2.0.tar.gz
+```
+
+
 ## Tutorials and Cheat sheet
 
 * YouTube [Octave Tutorials by DrapsTV](https://www.youtube.com/playlist?list=PL1A2CSdiySGJ6oZe6XB-TTCFuHc5Fs1PO). This tutorial uses GNU Octave 3.2.4.
