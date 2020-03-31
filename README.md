@@ -51,8 +51,10 @@ Uninstall a package as follows:
 ```
 
 
-## Tutorials and Cheat sheet
+## Tutorials and CheatSheet
 
-* YouTube [Octave Tutorials by DrapsTV](https://www.youtube.com/playlist?list=PL1A2CSdiySGJ6oZe6XB-TTCFuHc5Fs1PO). This tutorial uses GNU Octave 3.2.4.
+* YouTube [Octave Tutorials by DrapsTV](https://www.youtube.com/playlist?list=PL1A2CSdiySGJ6oZe6XB-TTCFuHc5Fs1PO). This tutorial was created in 2014 and uses GNU Octave 3.2.4 CLI. At that time no Graphical User Interface (GUI) was shipped with Octave.
 
-* [Introduction to Octave](http://www-mdp.eng.cam.ac.uk/web/CD/engapps/octave/octavetut.pdf) by Dr. P.J.G Long, Department of Engineering, University of Cambridge
+* [Introduction to Octave](http://www-mdp.eng.cam.ac.uk/web/CD/engapps/octave/octavetut.pdf) by Dr. P.J.G Long, Department of Engineering, University of Cambridge that was created in September 2005.
+
+* [Octave CheatSheet](https://gist.github.com/obstschale/7320846) by Hans-Helge Buerger ([@obstchale](https://github.com/obstschale))
