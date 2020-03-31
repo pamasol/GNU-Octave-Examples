@@ -4,7 +4,7 @@ GNU Octave code snippets that we ([pamasol.com](https://www.pamasol.com/)) mainl
 
 [GNU Octave](https://www.gnu.org/software/octave/) is a high-level interpreted language, primarily intended for numerical computations. Octave is comparable to [MATLAB](https://www.mathworks.com/products/matlab.html) regarding basic functions and script syntax. Most MATLAB scripts run  in GNU Octave as well. However, MATLAB is not open source software whereas Octave is.
 
-> GNU Octave is mostly compatible with MATLAB. However, Octave's parser allows some (often very useful) syntax that MATLAB's does not. Nevertheless please create scripts that work on [both systems](https://en.wikibooks.org/wiki/MATLAB_Programming/Differences_between_Octave_and_MATLAB).
+> Please create scripts that work on [both systems](https://en.wikibooks.org/wiki/MATLAB_Programming/Differences_between_Octave_and_MATLAB) – MATLAB as well as GNU Octave.
 
 ## Installation on Windows 10 64-bit operating systems
 
