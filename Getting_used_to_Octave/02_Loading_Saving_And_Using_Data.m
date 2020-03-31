@@ -6,8 +6,8 @@
 % warning ('off', 'Octave:data-file-in-path')
 clc
 
-single_data = load("single.dat");
-double_data = load("double.dat");
+single_data = load('single.dat');
+double_data = load('double.dat');
 
 v = rand(5,1)
 save mydata.dat v
