@@ -6,6 +6,10 @@ GNU Octave code snippets that we ([pamasol.com](https://www.pamasol.com/)) mainl
 
 > Please create scripts that work on [both systems](https://en.wikibooks.org/wiki/MATLAB_Programming/Differences_between_Octave_and_MATLAB) – MATLAB as well as GNU Octave, whenever possible.
 
+Octave comes with a CLI (command line interface) and a GUI (graphical user interface). The animated image below shows a surf plot in the GUI version:
+
+![GNU Octave GUI](Getting_used_to_Octave/gnu_octave_surf_plot.gif)
+
 ## Installation on Windows 10 64-bit operating systems
 
 1. In order to execute Java code Octave creates a Java Virtual Machine (JVM). Therefore you should install Java in a first step. Go to [java.com](https://www.java.com/en/download/manual.jsp) and download and install the **Windows Offline (64-bit)** installer.
@@ -53,7 +57,7 @@ Uninstall a package as follows:
 
 ## Tutorials and CheatSheet
 
-* YouTube [Octave Tutorials by DrapsTV](https://www.youtube.com/playlist?list=PL1A2CSdiySGJ6oZe6XB-TTCFuHc5Fs1PO). This tutorial was created in 2014 and uses GNU Octave 3.2.4 CLI. At that time no Graphical User Interface (GUI) was shipped with Octave.
+* YouTube [Octave Tutorials by DrapsTV](https://www.youtube.com/playlist?list=PL1A2CSdiySGJ6oZe6XB-TTCFuHc5Fs1PO). This tutorial was created in 2014 and uses GNU Octave 3.2.4 CLI. At that time no GUI was shipped with Octave.
 
 * [Introduction to Octave](http://www-mdp.eng.cam.ac.uk/web/CD/engapps/octave/octavetut.pdf) by Dr. P.J.G Long, Department of Engineering, University of Cambridge that was created in September 2005.
 
