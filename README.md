@@ -23,7 +23,7 @@ Octave comes with a CLI (command line interface) and a GUI (graphical user inter
 
 [Octave Forge](https://octave.sourceforge.io/) is a collection of packages providing extra functionality for GNU Octave.
 
-A selection of pre-built, Octave Forge packages are included with for all versions of the official Windows release. If you followed the installation directions above you can confirm the package list by typing the command below at the Octave command prompt:
+A selection of pre-built, Octave Forge packages are included for all versions of the official Windows release. If you followed the installation directions above you can confirm the package list by typing the command below at the Octave command prompt:
 
 ```
 >> pkg list
