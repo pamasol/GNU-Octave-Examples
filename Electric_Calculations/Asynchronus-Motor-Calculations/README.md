@@ -16,12 +16,17 @@ P_230_out =  183.71
 P_400_out =  181.05
 
 Torque output [Nm]
+fn =  23
 M_230_out =  1.2713
 M_400_out =  1.2528
 
 Force at shaft [N]
 F_230 =  231.14
 F_400 =  227.79
+
+Force at shaft [kg]
+F_230_kg =  23.569
+F_400_kg =  23.569
 
 Slip [%]
 s =  8

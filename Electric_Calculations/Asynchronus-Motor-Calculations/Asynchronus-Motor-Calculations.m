@@ -25,32 +25,47 @@ tE = 26;           % Time 'tE' is the locked rotor withstand time.  It is the ti
 d_shaft = 0.011;   % Shaft diameter in m
 
 % Power consumption [W]
+% ------------------------------------------------------------------------------
 disp('Power consumption [W]')
 P_230 = sqrt(3) * U_230 * I_230 * cosPhi 
 P_400 = sqrt(3) * U_400 * I_400 * cosPhi
 
 % Power output [W]
+% ------------------------------------------------------------------------------
 disp('')
 disp('Power output [W]')
-P_230_out = P_230 * 63/100
-P_400_out = P_400 * 63/100
+P_230_out = P_230 * EFF/100
+P_400_out = P_400 * EFF/100
 
 % Torque output [Nm]
+% ------------------------------------------------------------------------------
 disp('')
 disp('Torque output [Nm]')
 
-w = 2 * pi * n/60;
+% Rotational frequency per second (not per minute)
+fn = n/60
+% Angular velocity
+w = 2 * pi * fn;
 
 M_230_out = P_230_out/w
 M_400_out = P_400_out/w
 
 disp('')
 disp('Force at shaft [N]')
+% Radius of shaft
 r_shaft = d_shaft/2;
+
+% Force at shaft
 F_230 = M_230_out/r_shaft
 F_400 = M_400_out/r_shaft
 
+disp('')
+disp('Force at shaft [kg]')
+F_230_kg = F_230/9.80665
+F_400_kg = F_230/9.80665
+
 % Slip
+% ------------------------------------------------------------------------------
 disp('')
 disp('Slip [%]')
 n_s = (f/p)*60;
