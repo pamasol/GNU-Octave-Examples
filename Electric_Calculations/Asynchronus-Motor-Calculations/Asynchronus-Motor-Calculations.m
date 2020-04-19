@@ -43,7 +43,7 @@ disp('')
 disp('Torque output [Nm]')
 
 % Rotational frequency per second (not per minute)
-fn = n/60
+fn = n/60;
 % Angular velocity
 w = 2 * pi * fn;
 
