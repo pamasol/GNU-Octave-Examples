@@ -6,13 +6,17 @@ This script calculates voltage drop for DC current. Voltage drop is the decrease
 
 > Schematic created with [draw.io](https://www.draw.io/), which is a free online diagram software.
 
-Script output with 24VDC source, 50m cable length and 2 amps current:
+Script output with 24VDC source, 50m cable length,  1mm2 cross-section and 2A current:
 
 ```
 Cable resistance [ohm]
-R =  0.89300
+R =  1.7860
+
 Voltage Load [V]
-Uld =  22.214
+Uld =  20.428
+
+Voltage Drop [%]
+Vdrop =  14.883
 ```
 
 ## Plot Output DC Voltage Drop

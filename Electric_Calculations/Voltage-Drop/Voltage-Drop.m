@@ -8,7 +8,7 @@ close
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 l = 50;         % Cable length [m]
-A = 2;          % Cable cross-section [mm2]            
+A = 1.0;          % Cable cross-section [mm2]            
 rho = 0.01786;  % Resistivity [ohm * mm2 / m]
 
 Usrc = 24;      % Source [V]
@@ -16,9 +16,14 @@ I = 2;          % Current [A]
 
 disp('Cable resistance [ohm]')
 R = 2 * ((rho * l/A))
+disp('')
 
 disp('Voltage Load [V]')
 Uld = Usrc - (R * I)
+
+disp('')
+disp('Voltage Drop [%]')
+Vdrop = (Usrc - Uld)* 100 / Usrc
 
 % Plot with cable examples from 0 up to 50m and cable cross section from 0.5mm2
 % to 4.0mm2
