@@ -8,7 +8,7 @@ Input data can be found in following link and table:
 
 ![MS2E04 Technical Data](MS2E04_technical-data.png)
 
-Script output is as follows:
+Console output of script is as follows:
 
 ```
 Angular velocity [w]
