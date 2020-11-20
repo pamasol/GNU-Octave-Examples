@@ -15,8 +15,11 @@ Power output [W]
 P_230_out =  183.71
 P_400_out =  181.05
 
+Level of efficiency calculated
+n_230 =  0.63000
+n_400 =  0.63000
+
 Torque output [Nm]
-fn =  23
 M_230_out =  1.2713
 M_400_out =  1.2528
 

@@ -37,6 +37,13 @@ disp('Power output [W]')
 P_230_out = P_230 * EFF/100
 P_400_out = P_400 * EFF/100
 
+% Level of efficiency
+% ------------------------------------------------------------------------------
+disp('')
+disp('Level of efficiency calculated')
+n_230 = P_230_out / P_230
+n_400 = P_400_out / P_400
+
 % Torque output [Nm]
 % ------------------------------------------------------------------------------
 disp('')
