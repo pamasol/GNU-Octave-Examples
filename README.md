@@ -14,10 +14,9 @@ Octave comes with a CLI (command line interface) and a GUI (graphical user inter
 
 1. In order to execute Java code Octave creates a Java Virtual Machine (JVM). Therefore you should install Java in a first step. Go to [java.com](https://www.java.com/en/download/manual.jsp) and download and install the **Windows Offline (64-bit)** installer.
 
-2. Got to [gnu.org/software/octave](https://www.gnu.org/software/octave/) and download and install the **octave-5.x.x_x-w64-installer.exe**.
+2. Got to [gnu.org/software/octave/download](https://www.gnu.org/software/octave/download) and download and install the **octave-6.x.x_x-w64-installer.exe**.
 
 3. Make sure [git](https://git-scm.com/download/win) is installed on your machine as well. Clone this repository with `git clone git@github.com:pamasol/GNU-Octave-Examples.git`.
-
 
 ## Installing additional packages
 
@@ -25,35 +24,37 @@ Octave comes with a CLI (command line interface) and a GUI (graphical user inter
 
 A selection of pre-built, Octave Forge packages are included for all versions of the official Windows release. If you followed the installation directions above you can confirm the package list by typing the command below at the Octave command prompt:
 
-```
+```Matlab
 >> pkg list
 ```
 
+If the [control](https://octave.sourceforge.io/control/) package is not installed, proceed as follows.
+
 Run following commands to add the packages included in the `Forge_Packages` folder of this project:
 
-```
+```Matlab
 >> cd Forge_Packages
->> pkg install control-3.2.0.tar.gz
+>> pkg install control-3.4.0.tar.gz
 ```
 
 Or you can install packages directly from Octave Forge server as follows:
 
-```
+```Matlab
 >> pkg install -forge control
 ```
 
 Add named packages to the path. After loading a package it is possible to use the functions provided by the package. For example:
 
-```
+```Matlab
 >> pkg load control
 ```
 
 Uninstall a package as follows:
-```
+
+```Matlab
 >> pkg unload control
 >> pkg uninstall image
 ```
-
 
 ## Tutorials and CheatSheet
 
